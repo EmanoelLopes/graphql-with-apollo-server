@@ -11,3 +11,32 @@ Install dependencies:
 Run server:
 
 `node server`
+
+Playground is available at:
+`http://localhost:4001/graphql`
+
+Queries:
+Example of queries:
+
+```graphql
+query {
+  products {
+    id,
+    name,
+    price
+  }
+}
+```
+
+Mutations:
+Example of mutations:
+
+```graphql
+mutation CreateProduct {
+  addProduct(id: "20", name: "Iphone 12", price: 10000) {
+    id,
+    name,
+    price
+  }
+}
+```
