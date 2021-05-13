@@ -13,7 +13,7 @@ Run server:
 `node server`
 
 Playground is available at:
-`http://localhost:4001/graphql`
+`http://localhost:4001/__graphql`
 
 Queries:
 Example of queries:
